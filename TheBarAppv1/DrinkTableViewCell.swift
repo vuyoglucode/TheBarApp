@@ -11,6 +11,10 @@ class DrinkTableViewCell: UITableViewCell {
     @IBOutlet weak var drinkView: UIView!
     
  
+   // @IBOutlet weak var drinkType: UILabel!
+    //@IBOutlet weak var drinkCategory: UILabel!
+    @IBOutlet weak var drinkCategory: UILabel!
+    @IBOutlet weak var drinkType: UILabel!
     @IBOutlet weak var drinkName: UILabel!
     @IBOutlet weak var drinkImage: UIImageView!
     override func awakeFromNib() {

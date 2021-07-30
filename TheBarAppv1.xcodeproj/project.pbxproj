@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		417B6EA51137A269C7E27F03 /* Pods_TheBarAppv1_TheBarAppv1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A66FE0C720B3677717EFF65 /* Pods_TheBarAppv1_TheBarAppv1UITests.framework */; };
+		A01D9ADAC1220E8D33132FE4 /* Pods_TheBarAppv1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E825E5B38910B924A412ED2 /* Pods_TheBarAppv1Tests.framework */; };
 		B87E8940269FB0F30083B4FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87E893F269FB0F30083B4FB /* AppDelegate.swift */; };
 		B87E8942269FB0F30083B4FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87E8941269FB0F30083B4FB /* SceneDelegate.swift */; };
 		B87E8944269FB0F30083B4FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87E8943269FB0F30083B4FB /* ViewController.swift */; };
@@ -18,6 +20,12 @@
 		B87E897A26A358780083B4FB /* DrinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87E897926A358780083B4FB /* DrinkModel.swift */; };
 		B87E897C26A35BAB0083B4FB /* DrinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87E897B26A35BAB0083B4FB /* DrinkTableViewCell.swift */; };
 		B87E897E26A501580083B4FB /* DrinkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87E897D26A501580083B4FB /* DrinkDetailViewController.swift */; };
+		B87E898426B351960083B4FB /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87E898326B351960083B4FB /* CategoryTableViewController.swift */; };
+		B87E898626B351AD0083B4FB /* GlassesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87E898526B351AD0083B4FB /* GlassesTableViewController.swift */; };
+		B87E898826B351C70083B4FB /* AlcoholicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87E898726B351C70083B4FB /* AlcoholicTableViewController.swift */; };
+		B87E898A26B351EB0083B4FB /* IngredientTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87E898926B351EB0083B4FB /* IngredientTableViewController.swift */; };
+		B87E898C26B35A3D0083B4FB /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87E898B26B35A3D0083B4FB /* FilterViewController.swift */; };
+		CC31F3C1D040921BEDE301AB /* Pods_TheBarAppv1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96EDD844941F625A6B93B277 /* Pods_TheBarAppv1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1079FFD2E6DDAA84C16432C0 /* Pods-TheBarAppv1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheBarAppv1.debug.xcconfig"; path = "Target Support Files/Pods-TheBarAppv1/Pods-TheBarAppv1.debug.xcconfig"; sourceTree = "<group>"; };
+		1A66FE0C720B3677717EFF65 /* Pods_TheBarAppv1_TheBarAppv1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheBarAppv1_TheBarAppv1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C1D311AA6F044790CC70D4 /* Pods-TheBarAppv1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheBarAppv1.release.xcconfig"; path = "Target Support Files/Pods-TheBarAppv1/Pods-TheBarAppv1.release.xcconfig"; sourceTree = "<group>"; };
+		3E825E5B38910B924A412ED2 /* Pods_TheBarAppv1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheBarAppv1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96EDD844941F625A6B93B277 /* Pods_TheBarAppv1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheBarAppv1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B2E0AC3B76CCAB03A5C2468 /* Pods-TheBarAppv1-TheBarAppv1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheBarAppv1-TheBarAppv1UITests.debug.xcconfig"; path = "Target Support Files/Pods-TheBarAppv1-TheBarAppv1UITests/Pods-TheBarAppv1-TheBarAppv1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4119871F7C329517A5FFA58 /* Pods-TheBarAppv1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheBarAppv1Tests.debug.xcconfig"; path = "Target Support Files/Pods-TheBarAppv1Tests/Pods-TheBarAppv1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5B23FED61944C1D24914BAC /* Pods-TheBarAppv1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheBarAppv1Tests.release.xcconfig"; path = "Target Support Files/Pods-TheBarAppv1Tests/Pods-TheBarAppv1Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B87E893C269FB0F30083B4FB /* TheBarAppv1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheBarAppv1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87E893F269FB0F30083B4FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B87E8941269FB0F30083B4FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +71,12 @@
 		B87E897926A358780083B4FB /* DrinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkModel.swift; sourceTree = "<group>"; };
 		B87E897B26A35BAB0083B4FB /* DrinkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkTableViewCell.swift; sourceTree = "<group>"; };
 		B87E897D26A501580083B4FB /* DrinkDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetailViewController.swift; sourceTree = "<group>"; };
+		B87E898326B351960083B4FB /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		B87E898526B351AD0083B4FB /* GlassesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassesTableViewController.swift; sourceTree = "<group>"; };
+		B87E898726B351C70083B4FB /* AlcoholicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlcoholicTableViewController.swift; sourceTree = "<group>"; };
+		B87E898926B351EB0083B4FB /* IngredientTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientTableViewController.swift; sourceTree = "<group>"; };
+		B87E898B26B35A3D0083B4FB /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		BB54998CE33916B8B2D29646 /* Pods-TheBarAppv1-TheBarAppv1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheBarAppv1-TheBarAppv1UITests.release.xcconfig"; path = "Target Support Files/Pods-TheBarAppv1-TheBarAppv1UITests/Pods-TheBarAppv1-TheBarAppv1UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC31F3C1D040921BEDE301AB /* Pods_TheBarAppv1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A01D9ADAC1220E8D33132FE4 /* Pods_TheBarAppv1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +100,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				417B6EA51137A269C7E27F03 /* Pods_TheBarAppv1_TheBarAppv1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		747935189F0139C3721DAE50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96EDD844941F625A6B93B277 /* Pods_TheBarAppv1.framework */,
+				1A66FE0C720B3677717EFF65 /* Pods_TheBarAppv1_TheBarAppv1UITests.framework */,
+				3E825E5B38910B924A412ED2 /* Pods_TheBarAppv1Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B87E8933269FB0F30083B4FB = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +124,8 @@
 				B87E8955269FB0F60083B4FB /* TheBarAppv1Tests */,
 				B87E8960269FB0F60083B4FB /* TheBarAppv1UITests */,
 				B87E893D269FB0F30083B4FB /* Products */,
+				ED9967B8D4E05C196BAF3A90 /* Pods */,
+				747935189F0139C3721DAE50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +148,11 @@
 				B87E897B26A35BAB0083B4FB /* DrinkTableViewCell.swift */,
 				B87E897926A358780083B4FB /* DrinkModel.swift */,
 				B87E8945269FB0F30083B4FB /* Main.storyboard */,
+				B87E898B26B35A3D0083B4FB /* FilterViewController.swift */,
+				B87E898926B351EB0083B4FB /* IngredientTableViewController.swift */,
+				B87E898326B351960083B4FB /* CategoryTableViewController.swift */,
+				B87E898526B351AD0083B4FB /* GlassesTableViewController.swift */,
+				B87E898726B351C70083B4FB /* AlcoholicTableViewController.swift */,
 				B87E897D26A501580083B4FB /* DrinkDetailViewController.swift */,
 				B87E8948269FB0F60083B4FB /* Assets.xcassets */,
 				B87E894A269FB0F60083B4FB /* LaunchScreen.storyboard */,
@@ -137,6 +179,19 @@
 			path = TheBarAppv1UITests;
 			sourceTree = "<group>";
 		};
+		ED9967B8D4E05C196BAF3A90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1079FFD2E6DDAA84C16432C0 /* Pods-TheBarAppv1.debug.xcconfig */,
+				34C1D311AA6F044790CC70D4 /* Pods-TheBarAppv1.release.xcconfig */,
+				9B2E0AC3B76CCAB03A5C2468 /* Pods-TheBarAppv1-TheBarAppv1UITests.debug.xcconfig */,
+				BB54998CE33916B8B2D29646 /* Pods-TheBarAppv1-TheBarAppv1UITests.release.xcconfig */,
+				B4119871F7C329517A5FFA58 /* Pods-TheBarAppv1Tests.debug.xcconfig */,
+				B5B23FED61944C1D24914BAC /* Pods-TheBarAppv1Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B87E8966269FB0F60083B4FB /* Build configuration list for PBXNativeTarget "TheBarAppv1" */;
 			buildPhases = (
+				8124BB85551072616554B2BE /* [CP] Check Pods Manifest.lock */,
 				B87E8938269FB0F30083B4FB /* Sources */,
 				B87E8939269FB0F30083B4FB /* Frameworks */,
 				B87E893A269FB0F30083B4FB /* Resources */,
+				082F12BF164445DADD364B10 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B87E8969269FB0F60083B4FB /* Build configuration list for PBXNativeTarget "TheBarAppv1Tests" */;
 			buildPhases = (
+				0D87B9C007C95BFD9A47C625 /* [CP] Check Pods Manifest.lock */,
 				B87E894E269FB0F60083B4FB /* Sources */,
 				B87E894F269FB0F60083B4FB /* Frameworks */,
 				B87E8950269FB0F60083B4FB /* Resources */,
@@ -179,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B87E896C269FB0F60083B4FB /* Build configuration list for PBXNativeTarget "TheBarAppv1UITests" */;
 			buildPhases = (
+				E943E0A4100BBDE05E1A0CE6 /* [CP] Check Pods Manifest.lock */,
 				B87E8959269FB0F60083B4FB /* Sources */,
 				B87E895A269FB0F60083B4FB /* Frameworks */,
 				B87E895B269FB0F60083B4FB /* Resources */,
+				F19072767A7FB00AA7C074D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,14 +322,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		082F12BF164445DADD364B10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheBarAppv1/Pods-TheBarAppv1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheBarAppv1/Pods-TheBarAppv1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheBarAppv1/Pods-TheBarAppv1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D87B9C007C95BFD9A47C625 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheBarAppv1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8124BB85551072616554B2BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheBarAppv1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E943E0A4100BBDE05E1A0CE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheBarAppv1-TheBarAppv1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F19072767A7FB00AA7C074D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheBarAppv1-TheBarAppv1UITests/Pods-TheBarAppv1-TheBarAppv1UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheBarAppv1-TheBarAppv1UITests/Pods-TheBarAppv1-TheBarAppv1UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheBarAppv1-TheBarAppv1UITests/Pods-TheBarAppv1-TheBarAppv1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B87E8938269FB0F30083B4FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B87E898626B351AD0083B4FB /* GlassesTableViewController.swift in Sources */,
+				B87E898826B351C70083B4FB /* AlcoholicTableViewController.swift in Sources */,
+				B87E898426B351960083B4FB /* CategoryTableViewController.swift in Sources */,
 				B87E8944269FB0F30083B4FB /* ViewController.swift in Sources */,
 				B87E8940269FB0F30083B4FB /* AppDelegate.swift in Sources */,
+				B87E898C26B35A3D0083B4FB /* FilterViewController.swift in Sources */,
 				B87E897E26A501580083B4FB /* DrinkDetailViewController.swift in Sources */,
+				B87E898A26B351EB0083B4FB /* IngredientTableViewController.swift in Sources */,
 				B87E897A26A358780083B4FB /* DrinkModel.swift in Sources */,
 				B87E897C26A35BAB0083B4FB /* DrinkTableViewCell.swift in Sources */,
 				B87E8942269FB0F30083B4FB /* SceneDelegate.swift in Sources */,
@@ -445,6 +613,7 @@
 		};
 		B87E8967269FB0F60083B4FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1079FFD2E6DDAA84C16432C0 /* Pods-TheBarAppv1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -463,6 +632,7 @@
 		};
 		B87E8968269FB0F60083B4FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34C1D311AA6F044790CC70D4 /* Pods-TheBarAppv1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -481,6 +651,7 @@
 		};
 		B87E896A269FB0F60083B4FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4119871F7C329517A5FFA58 /* Pods-TheBarAppv1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +673,7 @@
 		};
 		B87E896B269FB0F60083B4FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5B23FED61944C1D24914BAC /* Pods-TheBarAppv1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -523,6 +695,7 @@
 		};
 		B87E896D269FB0F60083B4FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B2E0AC3B76CCAB03A5C2468 /* Pods-TheBarAppv1-TheBarAppv1UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -542,6 +715,7 @@
 		};
 		B87E896E269FB0F60083B4FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB54998CE33916B8B2D29646 /* Pods-TheBarAppv1-TheBarAppv1UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

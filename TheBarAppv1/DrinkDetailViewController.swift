@@ -10,8 +10,13 @@ import UIKit
 class DrinkDetailViewController: UIViewController {
 
     @IBOutlet weak var drinkName: UILabel!
+    @IBOutlet weak var drinkCategory: UILabel!
     @IBOutlet weak var drinkImage: UIImageView!
-  // var drinkData = [DrinkProperties]()
+    @IBOutlet weak var drinkType: UILabel!
+  
+   // @IBOutlet weak var drinkIngredients: UILabel!
+    @IBOutlet weak var drinkInstructions: UILabel!
+    // var drinkDetails = [DrinkProperties]()
     var drink: DrinkProperties?
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,17 +28,15 @@ override func viewWillAppear(_ animated: Bool)
      super.viewWillAppear(animated)
    // print(drink)
         
-        
-        // let characterNickname: String = (character?.nickname)!
-       //  charNickname.text = "A.K.A ' \(characterNickname.uppercased())'"
+    
          
    drinkName.text = drink?.strDrink.uppercased()
-       // charNickname.text = character?.nickname.uppercased()
-      //"Name is "\(character)
-      
-       // charDob.text = character?.dob
-//   drinkImage.downloaded(from: (drink?.strDrinkThumb)!)
+    drinkCategory.text = drink?.strCategory.uppercased()
+    drinkType.text = drink?.strAlcoholic.uppercased()
+    drinkInstructions.text = drink?.strInstructions
+    drinkImage.downloaded(from: (drink?.strDrinkThumb)!)
       
        
     }
+    
 }
